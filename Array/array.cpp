@@ -2,6 +2,13 @@
 #include <array>
 #include <string>
 
+bool is_empty(int val){
+
+	return val == -1;
+
+	};
+	
+
 int main(){
 
 	std::array<int, 3> _array1= {1, 2, 3};
